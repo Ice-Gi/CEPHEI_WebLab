@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="EB4E17991EF6CED026D41CB60746E3643397E3D31A2DCE4F90A5E4AF1FA3BBE50C99B26EC19CA46CA25D6EB72E7A352B42EAE9BA162DCE8D30C6E1E2AECC6F64" Timestamp="1D65B97F0A974F8" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="34035FE77D729D7746415487B9F12C261A0678A8E8C3D75B82D8E15106FF3B28C42828FB68F9AAA69FE6A23A7B2ABED8965120BA987F06BBE513E1D04B11B074" Timestamp="1D65B98503301C8" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -497,7 +497,6 @@
 				<StringControl AcceptsReturn="[bool]True" Height="[float]96" Id="f85cd7db99f442359844529b57a2f77b" IsReadOnly="[bool]True" Label="[UIModel]1894c98487df439493666856e0e999c0" Left="[float]8" Text="{ClusterBinding FieldName=source}" Top="[float]72" Width="[float]160" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 				<Label Id="1894c98487df439493666856e0e999c0" LabelOwner="[UIModel]f85cd7db99f442359844529b57a2f77b" Left="[float]8" Text="[string]source" Top="[float]52" />
 			</Cluster>
-			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="c403460922294622b347e44a56e78694" Interval="[int]1" IsReadOnly="[bool]True" Left="[float]0" Name="[string]size(s)" RadixBase="[RadixBase]Decimal" TabIndex="[int]9" Top="[float]0" Value="{DataItemBinding Id=43ce881d1bc41b085146149b2a5584c}" ValueFormatter="[string]Decimal, Uppercase, Signed" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="c5565ef5f4ee4c5397262d51117f797d">
 			<WhileLoop Bounds="-3715 550 1225 715" DiagramId="9486df7cf93544c8995c53deeefc5e2e" Id="26edfc987f7d4efbaa845636b49f16b9">
@@ -4978,13 +4977,6 @@
 				</NodeLabel>
 				<Wire Id="deb23e9ebca34215a75d52250f2fa2ec" Joints="N(85e00a9204b4914862da47a9b195701:Out)|(210,55) N(3d949d8b050d4ad1b52dfe2f6c65043c:time to wait)|(240,55)" xmlns="http://www.ni.com/PlatformFramework" />
 				<ArraySize Bounds="890 345 40 20" Id="10cedfff99d04904ab5e612edfcc12e6" />
-				<DataAccessor Bounds="960 355 40 15" DataItem="43ce881d1bc41b085146149b2a5584c" Id="53c281596bed4999b260eef701b44bd2" Label="c62696b3ecf640109cc7a6695c5c2913" xmlns="http://www.ni.com/MocCommon">
-					<Terminal DataType="Int32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-				</DataAccessor>
-				<NodeLabel AttachedTo="53c281596bed4999b260eef701b44bd2" Bounds="1005 355 37 14" Id="c62696b3ecf640109cc7a6695c5c2913" xmlns="http://www.ni.com/PlatformFramework">
-					<p.Text>size(s)</p.Text>
-				</NodeLabel>
-				<Wire Id="54dd50db678746889c0d69bddcce23b8" Joints="N(10cedfff99d04904ab5e612edfcc12e6:size(s\))|(930,360) N(53c281596bed4999b260eef701b44bd2:Value)|(963,360)" xmlns="http://www.ni.com/PlatformFramework" />
 			</WhileLoop>
 		</BlockDiagram>
 		<HtmlFrontPanel Background="[SMSolidColorBrush]#ffffffff" Height="[float]2900" HtmlPanel="[bool]False" Id="f7d64dfff91a4e2f924f017d659dbe77" LayoutSystem="[LayoutSystem]Absolute" Left="[float]0" MaxWidth="[float]16000" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1430" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
@@ -6690,9 +6682,6 @@
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
 			</p.TypeDefinitionTargets>
-		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="Int32" Id="43ce881d1bc41b085146149b2a5584c" Name="size(s)" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>0</p.DefaultValue>
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
