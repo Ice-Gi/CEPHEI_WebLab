@@ -4721,7 +4721,7 @@
 					<ArrayBehavior ElementType="String" IndexEditorWidth="42">
 						<p.DefaultElementValue>*</p.DefaultElementValue>
 					</ArrayBehavior>
-					<Literal Bounds="48 2.4 163 16" DataType="String" Id="cbe475caf81a48f99ae829e8521316ff">
+					<Literal Bounds="47.5 1.5 163 16" DataType="String" Id="cbe475caf81a48f99ae829e8521316ff">
 						<StringBehavior TextDisplayMode="Default" />
 					</Literal>
 				</ArrayLiteral>
