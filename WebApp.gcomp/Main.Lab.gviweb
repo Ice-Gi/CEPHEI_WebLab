@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="178FE940CFC1EA98210E5D1114DC805D5053B3B4636376C8F1BD58F112F8160BE02E7A231F6A9B4D34AA69EBBE53B3246100AF7CE4BD16BB3108293EB0CDCFDF" Timestamp="1D65B90F831E108" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="EB4E17991EF6CED026D41CB60746E3643397E3D31A2DCE4F90A5E4AF1FA3BBE50C99B26EC19CA46CA25D6EB72E7A352B42EAE9BA162DCE8D30C6E1E2AECC6F64" Timestamp="1D65B97F0A974F8" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -497,6 +497,7 @@
 				<StringControl AcceptsReturn="[bool]True" Height="[float]96" Id="f85cd7db99f442359844529b57a2f77b" IsReadOnly="[bool]True" Label="[UIModel]1894c98487df439493666856e0e999c0" Left="[float]8" Text="{ClusterBinding FieldName=source}" Top="[float]72" Width="[float]160" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 				<Label Id="1894c98487df439493666856e0e999c0" LabelOwner="[UIModel]f85cd7db99f442359844529b57a2f77b" Left="[float]8" Text="[string]source" Top="[float]52" />
 			</Cluster>
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="c403460922294622b347e44a56e78694" Interval="[int]1" IsReadOnly="[bool]True" Left="[float]0" Name="[string]size(s)" RadixBase="[RadixBase]Decimal" TabIndex="[int]9" Top="[float]0" Value="{DataItemBinding Id=43ce881d1bc41b085146149b2a5584c}" ValueFormatter="[string]Decimal, Uppercase, Signed" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="c5565ef5f4ee4c5397262d51117f797d">
 			<WhileLoop Bounds="-3715 550 1225 715" DiagramId="9486df7cf93544c8995c53deeefc5e2e" Id="26edfc987f7d4efbaa845636b49f16b9">
@@ -4721,7 +4722,7 @@
 					<ArrayBehavior ElementType="String" IndexEditorWidth="42">
 						<p.DefaultElementValue>*</p.DefaultElementValue>
 					</ArrayBehavior>
-					<Literal Bounds="47.5 1.5 163 16" DataType="String" Id="cbe475caf81a48f99ae829e8521316ff">
+					<Literal Bounds="48 2.4 163 16" DataType="String" Id="cbe475caf81a48f99ae829e8521316ff">
 						<StringBehavior TextDisplayMode="Default" />
 					</Literal>
 				</ArrayLiteral>
@@ -4934,7 +4935,7 @@
 				<Wire Id="c7d5a8e248da4ebdbdaf9db682bf4965" Joints="N(cadeb3e47e7c4eba921a7381668b2390:R0)|(215,145) h(245) B(1) h(20) B(2) N(acb0e2f0e6814f09a555946aa8c17107:o0)|(548,145) B(2) N(c3dbb1cb5c8e4b1b8744a74f5c991e96:T0)|(480,150) B(1) v(-35) h(564) v(60) N(75e198bcc38f498aa1fe553f9c1bdd61:L0)|(1035,170)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="a75d19e7abd41369edd3027e314a11b" Joints="N(c3dbb1cb5c8e4b1b8744a74f5c991e96:R0)|(505,155) N(536f1da77a764a9d9df2ca88e9834166:o0)|(548,155)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="9a0151e1bcd4eea9ffb8abe0c5c2415" Joints="N(c3dbb1cb5c8e4b1b8744a74f5c991e96:R3)|(505,185) h(10) v(20) N(af6af69e7e6f44efa141e54b49901ac5:o0)|(548,205)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="74de8fab118444d7ad43811fa99a84c6" Joints="N(291926243726477e8d0f98eda496e7d9:o0)|(857,175) h(3) v(65) N(79b49a477df1404bb40b005555031cc6:array)|(890,240)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="74de8fab118444d7ad43811fa99a84c6" Joints="N(291926243726477e8d0f98eda496e7d9:o0)|(857,175) h(3) v(65) h(24) B(3) N(79b49a477df1404bb40b005555031cc6:array)|(890,240) B(3) v(110) N(10cedfff99d04904ab5e612edfcc12e6:array)|(890,350)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="af1834e667dd4a7cb41775fed87819da" Joints="N(6b586095818c4d23ae877e8714350dda:o0)|(857,190) h(88) v(-20) N(5df565f08ae84391b1eceb447c6746b0:L0)|(960,170)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="30dcb6a2bb734b3aac1cd27d3b53d7d2" Joints="N(b2d5fae36d9649ba8851bc64ba94bc49:o0)|(857,200) N(5df565f08ae84391b1eceb447c6746b0:L3)|(960,200)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="37fde30fb7d545aa85208babed0b8ef7" Joints="N(978eabc528f84b7f9568b646a7fbd211:Value)|(75,175) N(cadeb3e47e7c4eba921a7381668b2390:L3)|(175,175)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -4976,6 +4977,14 @@
 					<p.Text>milliseconds to wait</p.Text>
 				</NodeLabel>
 				<Wire Id="deb23e9ebca34215a75d52250f2fa2ec" Joints="N(85e00a9204b4914862da47a9b195701:Out)|(210,55) N(3d949d8b050d4ad1b52dfe2f6c65043c:time to wait)|(240,55)" xmlns="http://www.ni.com/PlatformFramework" />
+				<ArraySize Bounds="890 345 40 20" Id="10cedfff99d04904ab5e612edfcc12e6" />
+				<DataAccessor Bounds="960 355 40 15" DataItem="43ce881d1bc41b085146149b2a5584c" Id="53c281596bed4999b260eef701b44bd2" Label="c62696b3ecf640109cc7a6695c5c2913" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Int32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="53c281596bed4999b260eef701b44bd2" Bounds="1005 355 37 14" Id="c62696b3ecf640109cc7a6695c5c2913" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>size(s)</p.Text>
+				</NodeLabel>
+				<Wire Id="54dd50db678746889c0d69bddcce23b8" Joints="N(10cedfff99d04904ab5e612edfcc12e6:size(s\))|(930,360) N(53c281596bed4999b260eef701b44bd2:Value)|(963,360)" xmlns="http://www.ni.com/PlatformFramework" />
 			</WhileLoop>
 		</BlockDiagram>
 		<HtmlFrontPanel Background="[SMSolidColorBrush]#ffffffff" Height="[float]2900" HtmlPanel="[bool]False" Id="f7d64dfff91a4e2f924f017d659dbe77" LayoutSystem="[LayoutSystem]Absolute" Left="[float]0" MaxWidth="[float]16000" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1430" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
@@ -6681,6 +6690,9 @@
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
 			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Int32" Id="43ce881d1bc41b085146149b2a5584c" Name="size(s)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
