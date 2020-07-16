@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="BDBC8976B2DDC69DB751B1DC7A839F815CA4EC12F02156DD634D3EA38AAE7F49778D6A87CCD6BA6130BCAACF43EA49D20AAC1C013EC9E7C47F3A254728D8843C" Timestamp="1D62F8548CB0964" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@a457d3327049424bad489a25cadf1b6a" Id="d79efecece794dbbb6f7702e0deb0fbe" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="229a5da0c8b74e3aadf6c6e4ea518c81" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="d891055e69e14455af66fe6497144245" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="79ac60ac61c44e3a80a9506ae33da489" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@a457d3327049424bad489a25cadf1b6a" Id="9384d6b47a7240769ea03a67b3967981" Name="Buttons WebVI">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="e75aae850c02426bb1eecb1133c29933" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="87c18364a8c8479cb9b72d7dd277bfcb" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="16cd705f65c94c299ce21321895b0f8a" Name="Buttons WebVI.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="b10c8cc9b7ca4bccba6551fde5476028" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="a359c4074e5b40ebb9fb9d81b3ce973f" xmlns="http://www.ni.com/MocCommon">
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="9e80788966734fa3ac4964865a605007" IsTypeAheadEnabled="[bool]True" Label="[UIModel]dc678fee5606478a8fda6649750e0167" Left="[float]128" TabIndex="[int]0" Top="[float]181" Value="{DataItemBinding Id=9384d6b47a7240769ea03a67b3967981}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]Initialize " DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Measurements/Save in Memory Buffer" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Measurements/Read from Memory Buffer" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Memory Buffer/Clear" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Memory Buffer/Clear all" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Load Selection" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Set Load" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]6" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Calculations/Read Slot Memory" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]7" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Calculation/Tab 2" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]8" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Calculation/Tab 1" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]9" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Clear/Tab 1" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]10" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Update Display" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]11" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Create Table/Tab 3" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]12" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Show Chart" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]13" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Clear Table/Tab 3" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]14" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Delete Last Table/Tab 3" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]15" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Clear Chart" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]16" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Header Tab 3" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]17" ValueType="[Type]UInt16" />
+					</EnumSelector>
+					<Label Height="[float]16" Id="dc678fee5606478a8fda6649750e0167" LabelOwner="[UIModel]9e80788966734fa3ac4964865a605007" Left="[float]128" Text="[string]Buttons WebVI" Top="[float]161" Width="[float]80" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="a457d3327049424bad489a25cadf1b6a">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Initialize " />
+					<EnumerationMember Value="1" Name="Measurements/Save in Memory Buffer" />
+					<EnumerationMember Value="2" Name="Measurements/Read from Memory Buffer" />
+					<EnumerationMember Value="3" Name="Memory Buffer/Clear" />
+					<EnumerationMember Value="4" Name="Memory Buffer/Clear all" />
+					<EnumerationMember Value="5" Name="Load Selection" />
+					<EnumerationMember Value="6" Name="Set Load" />
+					<EnumerationMember Value="7" Name="Calculations/Read Slot Memory" />
+					<EnumerationMember Value="8" Name="Calculation/Tab 2" />
+					<EnumerationMember Value="9" Name="Calculation/Tab 1" />
+					<EnumerationMember Value="10" Name="Clear/Tab 1" />
+					<EnumerationMember Value="11" Name="Update Display" />
+					<EnumerationMember Value="12" Name="Create Table/Tab 3" />
+					<EnumerationMember Value="13" Name="Show Chart" />
+					<EnumerationMember Value="14" Name="Clear Table/Tab 3" />
+					<EnumerationMember Value="15" Name="Delete Last Table/Tab 3" />
+					<EnumerationMember Value="16" Name="Clear Chart" />
+					<EnumerationMember Value="17" Name="Header Tab 3" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

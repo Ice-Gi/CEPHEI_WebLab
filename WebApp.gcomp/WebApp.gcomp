@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="BEFDCDE2EC82661AC0175478BE023272F0D48B08CEB82D82A8139F3461810AAC5E61CA1DFAF4B786ED1D21E382DF83F9E8B25F01DBF2CA634666581E4B5751C0" Timestamp="1D63063A64684A5" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="1" RootNamespaceId="14" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="5" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="WebApplication" Id="10" Name="Configuration1">
+			<CompilerSymbolTable Id="11" xmlns="http://www.ni.com/PlatformFramework" />
+			<WebApplicationOutputTypeProperties Id="12" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+			<ComponentItemProperties AssociatedEnvoyId="6a0d0f59dd584a409e191a57c0490d75" Id="e9a880b42c57441a940e98528e0e8aa0" TopLevel="True" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="78d7b6ca0033404c9a0a1e5308ff3695" Id="eae7447ab39b4f05b6b0a5566211f237" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="7" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="8" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="14" Name="WebApp">
+				<SourceFileReference Id="3edcfe04141b440da626b797c6981c08" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Main.Lab 1.2.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Main.Lab 1.2.gviweb" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="54785cfb0c7a4370b9db065e8dab2ae9" Name="Graph">
+					<SourceFileReference Id="f2e1089af1864fa6bdbbc30ee03c114b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="XY Graph new.gvi" StoragePath="Graph\XY Graph new.gvi" />
+					<SourceFileReference Bindings="EnvoyManager" Id="2007b4b8ccac4bf6bc0a60272a83ffa4" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="XY Graph new.Command to graph.gtype" StoragePath="Graph\XY Graph new.Command to graph.gtype\XY Graph new.Command to graph.gtype" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="6a6a78507e014e898b97e4da38920543" Name="Load Selection">
+					<SourceFileReference Id="814ea5f7390c4671b5d90be1185fbefa" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Load selection.gvi" StoragePath="Load Selection\Load selection.gvi" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="38f25f117b55403e92e1338948264fc6" Name="Images">
+					<FileReference Bindings=".png" Id="78d7b6ca0033404c9a0a1e5308ff3695" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="image 1.png" StoragePath="Images\image 1.png" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="66a924b0ad15460393acde0696e87c68" Name="Memory Buffer">
+					<SourceFileReference Id="3eb350f4e2e847baa6f3798df20018cc" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Memory buffer.gvi" StoragePath="Memory Buffer\Memory buffer.gvi" />
+					<SourceFileReference Bindings="EnvoyManager" Id="ba56cb10f4b549e5b1d3b25c39aa393a" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Command.gtype" StoragePath="Memory Buffer\Command.gtype\Command.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="87984e126e1745d8afabe2cc43bf1d94" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Buffer data.gtype" StoragePath="Memory Buffer\Buffer data.gtype\Buffer data.gtype" />
+				</NameScopingEnvoy>
+				<SourceFileReference Id="6a0d0f59dd584a409e191a57c0490d75" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Main.Lab.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Main.Lab.gviweb" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="7b43d17f2c8248c69a1601794434b684" Name="Support">
+					<SourceFileReference Id="d562a83efa1346ceb69d285e645fe178" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Check Loop Error.gvi" StoragePath="Support\Check Loop Error.gvi" />
+					<SourceFileReference Id="7a8fb561644449eaa7f12dea56954016" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Error Handler - Event Handling Loop.gvi" StoragePath="Support\Error Handler - Event Handling Loop.gvi" />
+					<SourceFileReference Id="bfbbe2f766524b94b82b930e43e1fac2" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Error Handler - Message Handling Loop.gvi" StoragePath="Support\Error Handler - Message Handling Loop.gvi" />
+					<SourceFileReference Id="cc3cca83e7b14a31bb8c14ee68eccb34" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Simple Display Error.gvi" StoragePath="Support\Simple Display Error.gvi" />
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="231d91b58e974166af76ed95ce860118" Name="Message Queue">
+						<SourceFileReference Id="88fb9d7bb77e4cbdbb93c8b09822be1c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Create All Message Queues.gvi" StoragePath="Support\Message Queue\Create All Message Queues.gvi" />
+						<SourceFileReference Id="130f79d710414043bdf64c9439c945bd" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Dequeue Message.gvi" StoragePath="Support\Message Queue\Dequeue Message.gvi" />
+						<SourceFileReference Id="52756b67988f400baa3a1228782c0970" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enqueue Message (Single).gvi" StoragePath="Support\Message Queue\Enqueue Message (Single).gvi" />
+						<SourceFileReference Id="51ec7746b4594cdeaabf841085d21d33" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Obtain Message Queue.gvi" StoragePath="Support\Message Queue\Obtain Message Queue.gvi" />
+						<SourceFileReference Bindings="EnvoyManager" Id="2f1a3f3f87cb4e9d98a8e929deed2804" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="All Message Queues.gtype" StoragePath="Support\Message Queue\All Message Queues.gtype\All Message Queues.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="7361d6513988472a84ebf4349f6fd159" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Message Cluster.gtype" StoragePath="Support\Message Queue\Message Cluster.gtype\Message Cluster.gtype" />
+					</NameScopingEnvoy>
+					<SourceFileReference Bindings="EnvoyManager" Id="705a274c121c476a8c9f1de1d628a2cb" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="UI Data.gtype" StoragePath="Support\UI Data.gtype\UI Data.gtype" />
+				</NameScopingEnvoy>
+				<SourceFileReference Bindings="EnvoyManager" Id="b32df8e453084f13bc6dd80378ad0f13" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Buttons WebVI.gtype" StoragePath="Buttons WebVI.gtype\Buttons WebVI.gtype" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="9d2e1d2ccd1746fea9126be0b7d825f0" Name="Custom Chart">
+					<SourceFileReference Id="52ad3825b74b4ca2aea5fb808787ad2a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Custom Chart.gvi" StoragePath="Custom Chart\Custom Chart.gvi" />
+					<SourceFileReference Bindings="EnvoyManager" Id="9484c4cac3d2460f8a7ed17d8a57c1be" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Command Chart.gtype" StoragePath="Custom Chart\Command Chart.gtype\Command Chart.gtype" />
+				</NameScopingEnvoy>
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="9" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="WebApp.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="10" Id="13" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
