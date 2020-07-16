@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="34035FE77D729D7746415487B9F12C261A0678A8E8C3D75B82D8E15106FF3B28C42828FB68F9AAA69FE6A23A7B2ABED8965120BA987F06BBE513E1D04B11B074" Timestamp="1D65B98503301C8" xmlns="http://www.ni.com/PlatformFramework">
 <SourceFile Checksum="A59960B2719909EFE0DA7D276899FDB41B6B3A5237A991D4F3ABF250C096680EC0E091C81AD343F894B0E8AAE54A1C8589748C66585C7773EFD9C02E31B0EC55" Timestamp="1D65B98AA8DA718" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
