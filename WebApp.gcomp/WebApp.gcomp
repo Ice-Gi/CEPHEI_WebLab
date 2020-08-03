@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="0B73E74A8B8C7D061E0805D49FE75361823F6AB7C5AB2D2A323112B087950D43A94DB2DF34D311BB7CAFCACD6E594922266F7230CED4B5ACA56B18441BB9B08B" Timestamp="1D65ECB3BCAC5C9" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="2B0B2D31D9CDD42CEE6296037EC6A11318122AAA5FF87E4679CB34B1B88BFB1273C537B3DA88EAF89D468B6B813DC0926B51B6E0D3C75572228DA95E4E5FAAE2" Timestamp="1D66741EB6CCE80" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -46,15 +46,21 @@
 					<SourceFileReference Id="7a8fb561644449eaa7f12dea56954016" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Error Handler - Event Handling Loop.gvi" StoragePath="Support\Error Handler - Event Handling Loop.gvi" />
 					<SourceFileReference Id="bfbbe2f766524b94b82b930e43e1fac2" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Error Handler - Message Handling Loop.gvi" StoragePath="Support\Error Handler - Message Handling Loop.gvi" />
 					<SourceFileReference Id="cc3cca83e7b14a31bb8c14ee68eccb34" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Simple Display Error.gvi" StoragePath="Support\Simple Display Error.gvi" />
-					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="231d91b58e974166af76ed95ce860118" Name="Message Queue">
-						<SourceFileReference Id="88fb9d7bb77e4cbdbb93c8b09822be1c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Create All Message Queues.gvi" StoragePath="Support\Message Queue\Create All Message Queues.gvi" />
-						<SourceFileReference Id="130f79d710414043bdf64c9439c945bd" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Dequeue Message.gvi" StoragePath="Support\Message Queue\Dequeue Message.gvi" />
-						<SourceFileReference Id="52756b67988f400baa3a1228782c0970" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enqueue Message (Single).gvi" StoragePath="Support\Message Queue\Enqueue Message (Single).gvi" />
-						<SourceFileReference Id="51ec7746b4594cdeaabf841085d21d33" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Obtain Message Queue.gvi" StoragePath="Support\Message Queue\Obtain Message Queue.gvi" />
-						<SourceFileReference Bindings="EnvoyManager" Id="2f1a3f3f87cb4e9d98a8e929deed2804" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="All Message Queues.gtype" StoragePath="Support\Message Queue\All Message Queues.gtype\All Message Queues.gtype" />
-						<SourceFileReference Bindings="EnvoyManager" Id="7361d6513988472a84ebf4349f6fd159" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Message Cluster.gtype" StoragePath="Support\Message Queue\Message Cluster.gtype\Message Cluster.gtype" />
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="231d91b58e974166af76ed95ce860118" Name="Message Queue WEB">
+						<SourceFileReference Id="88fb9d7bb77e4cbdbb93c8b09822be1c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Create All Message Queues.gvi" StoragePath="Support\Message Queue WEB\Create All Message Queues.gvi" />
+						<SourceFileReference Id="130f79d710414043bdf64c9439c945bd" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Dequeue Message.gvi" StoragePath="Support\Message Queue WEB\Dequeue Message.gvi" />
+						<SourceFileReference Id="52756b67988f400baa3a1228782c0970" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enqueue Message (Single).gvi" StoragePath="Support\Message Queue WEB\Enqueue Message (Single).gvi" />
+						<SourceFileReference Bindings="EnvoyManager" Id="2f1a3f3f87cb4e9d98a8e929deed2804" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="All Message Queues.gtype" StoragePath="Support\Message Queue WEB\All Message Queues.gtype\All Message Queues.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="7361d6513988472a84ebf4349f6fd159" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Message Cluster.gtype" StoragePath="Support\Message Queue WEB\Message Cluster.gtype\Message Cluster.gtype" />
+						<SourceFileReference Id="6833e286954f4b4a9cbdca7f310e5471" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Obtain Message.gvi" StoragePath="Support\Message Queue WEB\Obtain Message.gvi" />
 					</NameScopingEnvoy>
 					<SourceFileReference Bindings="EnvoyManager" Id="705a274c121c476a8c9f1de1d628a2cb" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="UI Data.gtype" StoragePath="Support\UI Data.gtype\UI Data.gtype" />
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="fd5d141c0dda4353bba407efa06e4e6c" Name="Message Queue SLC">
+						<SourceFileReference Bindings="EnvoyManager" Id="80fa435d1b47441080479ddafc76b530" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Message Cluster SLC.gtype" StoragePath="Support\Message Queue SLC\Message Cluster SLC.gtype\Message Cluster SLC.gtype" />
+						<SourceFileReference Id="dbfdc2ec400c4c97b97afe8005f08671" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Obtain Message SLC.gvi" StoragePath="Support\Message Queue SLC\Obtain Message SLC.gvi" />
+						<SourceFileReference Id="c8f27f9ab67a4f08a62a130ea7893143" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enqueue Message SLC.gvi" StoragePath="Support\Message Queue SLC\Enqueue Message SLC.gvi" />
+						<SourceFileReference Id="86448b50518b4754b3e923552d6e4680" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Dequeue Message SLC.gvi" StoragePath="Support\Message Queue SLC\Dequeue Message SLC.gvi" />
+					</NameScopingEnvoy>
 				</NameScopingEnvoy>
 				<SourceFileReference Bindings="EnvoyManager" Id="b32df8e453084f13bc6dd80378ad0f13" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Buttons WebVI.gtype" StoragePath="Buttons WebVI.gtype\Buttons WebVI.gtype" />
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="9d2e1d2ccd1746fea9126be0b7d825f0" Name="Custom Chart">
@@ -62,6 +68,7 @@
 					<SourceFileReference Bindings="EnvoyManager" Id="9484c4cac3d2460f8a7ed17d8a57c1be" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Command Chart.gtype" StoragePath="Custom Chart\Command Chart.gtype\Command Chart.gtype" />
 				</NameScopingEnvoy>
 				<SourceFileReference Id="43fc02aabb8b4b3097d934b1b13f37cd" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Main.Lab.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Main.Lab.gviweb" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5917588197f34c79922ea08de28942f6" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Buttons SLC.gtype" StoragePath="Buttons SLC.gtype\Buttons SLC.gtype" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="9" Name="WebApp.gcomp" NameTracksFileName="True">

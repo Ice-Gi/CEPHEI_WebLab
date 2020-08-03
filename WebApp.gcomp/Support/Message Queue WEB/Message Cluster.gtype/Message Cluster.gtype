@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="4B5589CEB00F00CB823546DF52DAE06A06E3436A16C12987657C32B9F100D919B9587AEE1FCFFDE58D350104E8F11AB3F706151CBB8D55D4602DF50917B973F0" Timestamp="1D666B4E501D000" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@4b38394365654d258ccf62102be5341d" Id="1" xmlns="http://www.ni.com/MocCommon">
+		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+			<TypeDefinitionTarget TargetName="WebApp::Buttons WebVI.gtype" />
+		</p.TypeDefinitionTargets>
+		<Icon Id="17" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="19" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="20" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="21" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="22" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="23" Left="[float]5" MinHeight="[float]13" MinWidth="[float]13" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE6SURBVEhL1ZWBccMgEARpQbV8C6qFntQTLaQWcs/9wAfFCGwpM7k5C3gda4xtEVLKD7mhj5TUR4rmw1sk1uSkDQ1WHmrf9zoHDr/JBzTDBuvCfDnS10ko6q2fqwYohwz7jg9ohg3R6HR0DFEsaGGSHqBbh41EQ2OvgavGEMWKxrSqM9pLw3jBRBPUGcUPVx11ba+1bRuT9ADdMmz05xUjvqtiCSJgUSEIpuFunQOjcpYPaKYb32h7w0dkeznUZKzT8+jyAZp8hf2SWlNDswN53D1oL1a666pezrkHjZlVrEI2/hB9qb9A4z92eRgxCelHnhHTM4eR9SZXXYV14YrnuJ0UTijqLb9qa+dENLalo2OIIoSnpjZFa+iZw0ibonfQ48OoBFWr6OvDyHpv7PXlYWTRVfSS/iM652/gxB5Tfj0yMAAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@4b38394365654d258ccf62102be5341d" Id="12" Name="Cluster">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>""</Field1>
+					<Field2>
+						<Variant>
+							<InnerType>Void</InnerType>
+							<VariantData>null</VariantData>
+						</Variant>
+					</Field2>
+					<Field3>0</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="WebApp::Buttons WebVI.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="5" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="6" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="7" Name="Message Cluster.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="8" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="9" xmlns="http://www.ni.com/MocCommon">
+					<Label Height="[float]16" Id="11" LabelOwner="[UIModel]10" Left="[float]110" Text="[string]Message Cluster" Top="[float]42" Width="[float]87" xmlns="http://www.ni.com/PanelCommon" />
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" ClusterType="[Type]@4b38394365654d258ccf62102be5341d" Height="[float]216" Id="10" IsTabStop="[bool]True" Label="[UIModel]11" Left="[float]110" TabIndex="[int]0" Top="[float]62" Value="{DataItemBinding Id=12}" Width="[float]166" xmlns="http://www.ni.com/PanelCommon">
+						<StringControl AcceptsReturn="[bool]True" Height="[float]25" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="13" IsTabStop="[bool]True" Label="[UIModel]14" Left="[float]4" TabIndex="[int]0" Text="{ClusterBinding FieldName=Message}" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]24" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]149" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="14" LabelOwner="[UIModel]13" Left="[float]4" Text="[string]Message" Top="[float]4" Width="[float]47" />
+						<VariantControl BaseName="[string]Variant" Height="[float]75" Id="15" IsTabStop="[bool]True" Label="[UIModel]16" Left="[float]4" TabIndex="[int]1" Top="[float]77" VariantValue="{ClusterBinding FieldName=Message\ Data}" Width="[float]150" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="16" LabelOwner="[UIModel]15" Left="[float]4" Text="[string]Message Data" Top="[float]57" Width="[float]75" />
+						<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Buttons WebVI" Height="[float]24" Id="2d04778887594454a53c83f694568591" IsTypeAheadEnabled="[bool]True" Label="[UIModel]8a72b356752743778fff9eb22a83bf94" Left="[float]4" TabIndex="[int]2" Top="[float]180" Value="{ClusterBinding FieldName=Buttons\ WebVI}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" p7:ControlDefinitionChecksum="S68oODg1a72RHvSRbAV+lZlVFoRvs/wqlkJNNff7ryM=" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<p7:p.TypeDefinitionTargets>
+								<p7:TypeDefinitionTarget TargetName="WebApp::Buttons WebVI.gtype::ControlDefinition" />
+							</p7:p.TypeDefinitionTargets>
+							<EnumSelectorInfo DisplayValue="[string]Initialize " DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Measurements/Save in Memory Buffer" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Measurements/Read from Memory Buffer" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Memory Buffer/Clear" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Memory Buffer/Clear all" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Load Selection" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Set Load" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]6" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Calculations/Read Slot Memory" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]7" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Calculation/Tab 2" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]8" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Calculation/Tab 1" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]9" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Clear/Tab 1" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]10" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Update Display" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]11" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Create Table/Tab 3" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]12" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Show Chart" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]13" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Clear Table/Tab 3" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]14" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Delete Last Table/Tab 3" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]15" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Clear Chart" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]16" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Header Tab 3" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]17" ValueType="[Type]UInt16" />
+						</EnumSelector>
+						<Label Height="[float]16" Id="8a72b356752743778fff9eb22a83bf94" LabelOwner="[UIModel]2d04778887594454a53c83f694568591" Left="[float]4" Text="[string]Buttons WebVI" Top="[float]160" Width="[float]79" />
+					</Cluster>
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="4b38394365654d258ccf62102be5341d">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Message" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Message Data" DataType="@bd2232353db34e3ebe062acdcac878ce" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Buttons WebVI" DataType="@e3a5feca2d3240b997dddd0cce04af99" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="bd2232353db34e3ebe062acdcac878ce">
+			<Composite Id="1" Name="Variant" Sealed="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="e3a5feca2d3240b997dddd0cce04af99">
+			<Attributed AttributedType="@38fd7b4465cf42cf8ddab680b4f1eb64">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="38fd7b4465cf42cf8ddab680b4f1eb64">
+			<Typedef TypedefName="Buttons WebVI.gtype" UnderlyingType="@a457d3327049424bad489a25cadf1b6a" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="a457d3327049424bad489a25cadf1b6a">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Initialize " />
+					<EnumerationMember Value="1" Name="Measurements/Save in Memory Buffer" />
+					<EnumerationMember Value="2" Name="Measurements/Read from Memory Buffer" />
+					<EnumerationMember Value="3" Name="Memory Buffer/Clear" />
+					<EnumerationMember Value="4" Name="Memory Buffer/Clear all" />
+					<EnumerationMember Value="5" Name="Load Selection" />
+					<EnumerationMember Value="6" Name="Set Load" />
+					<EnumerationMember Value="7" Name="Calculations/Read Slot Memory" />
+					<EnumerationMember Value="8" Name="Calculation/Tab 2" />
+					<EnumerationMember Value="9" Name="Calculation/Tab 1" />
+					<EnumerationMember Value="10" Name="Clear/Tab 1" />
+					<EnumerationMember Value="11" Name="Update Display" />
+					<EnumerationMember Value="12" Name="Create Table/Tab 3" />
+					<EnumerationMember Value="13" Name="Show Chart" />
+					<EnumerationMember Value="14" Name="Clear Table/Tab 3" />
+					<EnumerationMember Value="15" Name="Delete Last Table/Tab 3" />
+					<EnumerationMember Value="16" Name="Clear Chart" />
+					<EnumerationMember Value="17" Name="Header Tab 3" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
